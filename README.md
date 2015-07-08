@@ -72,3 +72,5 @@ Create a new file in the repo called 'test.csv'. Does the git detect it?
 
 1. Go to settings, add a collaborator
 2. Force a merge conflict
+3. 
+Here are some changes that I hope will force a conflict
