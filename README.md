@@ -1,16 +1,24 @@
 # Learning how to use GitHub
 
-### Objectives
+**Contents**
+
+1. [Making changes](#a-making-changes)  
+2. [Ignoring files](#b-ignoring-files)  
+3. [Handling conflicts](#c-handling-conflicts)  
+4. [Working with collaborators](#d-working-with-collaborators)
+5. [Further](#further)
+
+**Objectives**
 
 * Store version-controlled projects online
 * Work with collaborators on the same project
 
-### Not covered
+**Not covered**
 
 * Command-line git tools
 * Working with branches
 
-### Required
+**Required**
 
 * GitHub GUI ([Windows](https://windows.github.com/), [Mac](https://mac.github.com/))
 * GitHub account
@@ -95,7 +103,7 @@ It shows the lines in conflict and all you need to do is fix it manually. Either
 
 Once you've corrected the file, commit the change. Git suggests a message for you, something like: 'Merge remote-tracking branch origin/master'.
 
-#### C. Working with collaborators
+#### D. Working with collaborators
 
 Now you have a repo, you know how to commit changes to it and resolve conflicts, you just need to have some collaborators with whom to work.
 
@@ -122,6 +130,3 @@ GitHub is constantly growing and inventing new things, here are some useful thin
 * Create [organisations](https://github.com/blog/674-introducing-organizations) that share repos which members of the group can push to
 * Copy and paste snippets of code between people with [gist](https://gist.github.com/)
 * Host [websites](https://pages.github.com/)
-
-### Author
-Dom Bennett
