@@ -14,7 +14,7 @@
 
 * GitHub GUI ([Windows](https://windows.github.com/), [Mac](https://mac.github.com/))
 * GitHub account
-* Good text-editor (e.g. Atom or Sublime)
+* Good text-editor (e.g. [Atom](https://atom.io/))
 * Internet connection
 
 ### Instructions
@@ -67,8 +67,61 @@ Create a new file in the repo called 'test.csv'. Does the git detect it?
 
 >*. prefix* -- in UNIX systems this makes a file invisible. If you cannot find your `.gitignore` open a terminal and use `ls -a` to see all files in a folder. You can also use a simple terminal text editor like nano to modify the file (`nano .gitignore`).
 
+#### C. Handling conflicts
+
+When multiple people work on a repo at once, conflicts can occur if more than one person has made a change to a file. These are termed merge conflicts and must be resolved before a repo can be synced.
+
+**1. Creating a conflict**
+
+You now have two copies of your repo, one on your machine and another on GitHub. Go to the GitHub repo and modify the `script.md`, use the pencil icon in the top-right. Edit the 'I expect this line to be a conflict' line to whatever you like. Commit your change directly on the GitHub version.
+
+Now repeat what you did for the copy on your machine. Change the line you changed online to something different. Commit the change and try to sync the repo. This will create a 'merge-conflict' because your local copy has a committed change that conflicts with a committed change on the remote repo.
+
+>To avoid conflicts it's best to commit and sync often; small and frequent is the aim of the game.
+
+**2. Conflict resolution**
+
+Git has recognised the conflict and has added to the file in conflict, something like this:
+
+```
+<<<<<<< HEAD
+    [This is the text that is in your local copy]
+=======
+    [This is the test in the remote copy]
+>>>>>>> master
+```
+
+It shows the lines in conflict and all you need to do is fix it manually. Either by merging the two lines or choosing one over the other.
+
+Once you've corrected the file, commit the change. Git suggests a message for you, something like: 'Merge remote-tracking branch origin/master'.
 
 #### C. Working with collaborators
 
-1. Go to settings, add a collaborator
-2. Force a merge conflict
+Now you have a repo, you know how to commit changes to it and resolve conflicts, you just need to have some collaborators with whom to work.
+
+* Go to the online repo
+* Click on settings in the panel on the right
+* Click on collaborators
+* Add collaborators using their GitHub account names
+
+Any collaborator can now sync ('push access') their changes to the repo online.
+
+### Further
+
+I've only introduced the GitHub GUI, with git command-line tools you're able to do a lot more. That said, 95% of what you use git and GitHub for is covered here (forking, cloning, committing and syncing). To learn more see the following links:
+
+* [Git Documentation](https://git-scm.com/doc)
+* [GitHub Guides](https://guides.github.com/)
+
+GitHub is constantly growing and inventing new things, here are some useful things I know about:
+
+* Pay for [private repos](https://github.com/pricing) that you and collaborators can see
+* If you're a student you can apply for free privates repos through their [education package](https://education.github.com/pack)
+* Highlight [issues](https://guides.github.com/features/issues/) with your code for others to see (and hopefully fix!)
+* You can create [wikis](https://help.github.com/articles/about-github-wikis/) to explain your code
+* Create [organisations](https://github.com/blog/674-introducing-organizations) that share repos which members of the group can push to
+* Copy and paste snippets of code between people with [gist](https://gist.github.com/)
+* Host [websites](https://pages.github.com/)
+
+### Author
+Dom Bennett
