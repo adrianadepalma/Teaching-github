@@ -29,7 +29,7 @@
 
 #### A. Making changes
 
-Basic git usage is to have a repository online, make changes to a local copy on your machine, and then push those changes to the online version. This allows you to have a backup of all your code, have a history of all the steps you've taken for developing your code (which allows you to revert to previous version if anything goes wrong) and work with collaborators.
+Basic git usage is to have a repository online, make changes to a local copy on your machine, and then push those changes to the online version. This allows you to have a backup of all your code, have a history of all the steps you've taken for developing your code (which allows you to revert to previous versions if anything goes wrong) and work with collaborators.
 
 >*Repo* -- or repository is a folder that is under version-control. It can be held online and across multiple computers, each copy is kept up-to-date by syncing. When under version-control, nothing is ever lost. All versions and deleted files are kept in the `.git/` folder.
 
@@ -130,3 +130,4 @@ GitHub is constantly growing and inventing new things, here are some useful thin
 * Create [organisations](https://github.com/blog/674-introducing-organizations) that share repos which members of the group can push to
 * Copy and paste snippets of code between people with [gist](https://gist.github.com/)
 * Host [websites](https://pages.github.com/)
+* GitHub supports [emoji](http://www.emoji-cheat-sheet.com/) (:sheep::cow::horse:)
