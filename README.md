@@ -49,7 +49,7 @@ In your GitHub GUI, select the + sign in the top-left corner. And clone the rece
 
 **3. Make a change**
 
-With the repo on your machine, you can now make changes to it. Open the `script.md` file and adapt the poem to your liking. Or if you want to write your own poem or anything else, add anything to `script.md`.
+With the repo on your machine, you can now make changes to it. Open the `script.md` file and adapt the poem to your liking or make any other change to the file.
 
 **4. Commit and sync this repo**
 
@@ -65,7 +65,7 @@ Git will version control everything placed in the repo. This is not always helpf
 
 **1. Open the .gitignore and ignore .csv files**
 
-In your text editor, open the `.gitignore` file and add `*.csv` under 'Ignored files'. This tells git to ignore any file that ends with `.csv`. It is useful to ignore data files (like csv files) for multiple reasons: GitHub has a 1GB repo limit; it is pointless version controlling files that are automatically generated, this will make the `.git/` folder very large over time and slow-down simple git processes; it will reduce the amount of bandwidth used when performing simple tasks like cloning and syncing.
+In your text editor, open the `.gitignore` file and add `*.csv` under 'Ignored files'. This tells git to ignore any file that ends with `.csv`. It is useful to ignore data files (like csv files) for multiple reasons: GitHub has a 1GB repo limit; it is pointless version controlling files that are automatically generated, this will make the `.git/` folder very large over time and slow-down simple git processes; large git repos take longer to perform simple tasks like cloning and syncing.
 
 Now you've edited a file, commit it with a message in your GUI e.g. 'Now ignoring csv files'
 
