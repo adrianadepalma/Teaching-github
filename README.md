@@ -1,5 +1,7 @@
 # Learning how to use GitHub
 
+Don't know *any* git or GitHub? Then this is for you! It's a very simple hands-on tutorial.
+
 **Contents**
 
 1. [Making changes](#a-making-changes)  
@@ -8,7 +10,7 @@
 4. [Working with collaborators](#d-working-with-collaborators)
 5. [Further](#further)
 
-**Objectives**
+**Learning objectives**
 
 * Store version-controlled projects online
 * Work with collaborators on the same project
@@ -20,9 +22,9 @@
 
 **Required**
 
-* GitHub GUI ([Windows](https://windows.github.com/), [Mac](https://mac.github.com/))
-* GitHub account
-* Good text-editor (e.g. [Atom](https://atom.io/))
+* GitHub GUI (install for [Windows](https://windows.github.com/) or [Mac](https://mac.github.com/))
+* GitHub account (get an account [here](https://github.com/join))
+* Good text-editor (e.g. [Atom](https://atom.io/), but notepad or similar will work)
 * Internet connection
 
 ### Instructions
@@ -31,13 +33,13 @@
 
 Basic git usage is to have a repository online, make changes to a local copy on your machine, and then push those changes to the online version. This allows you to have a backup of all your code, have a history of all the steps you've taken for developing your code (which allows you to revert to previous versions if anything goes wrong) and work with collaborators.
 
->*Repo* -- or repository is a folder that is under version-control. It can be held online and across multiple computers, each copy is kept up-to-date by syncing. When under version-control, nothing is ever lost. All versions and deleted files are kept in the `.git/` folder.
+>*Repo* -- or repository is a folder that is under version-control. It can be held online and across multiple computers, each copy is kept up-to-date by syncing. When under version-control, nothing is ever lost. All versions and deleted files are kept in the `.git/` folder and, in theory, everything is recoverable.
 
 **1. Fork this repo**
 
 Every repo on GitHub can be forked. Look for the fork button in the top right corner of this page to copy this repo to your own account.
 
->*Fork*  -- copy someone else's repo to your own account.
+>*Fork*  -- copy someone else's repo to your own account. Once its in your account, its yours to do what you want with (but make sure you read the licensing of a repo before forking, usually stored in a LICENSE.txt)
 
 **2. Clone this repo to your local machine**
 
@@ -45,13 +47,13 @@ In your GitHub GUI, select the + sign in the top-left corner. And clone the rece
 
 >*Clone*  -- copy a repo, to which you have access, to your own computer.
 
-**3. Make a change to the poem.**
+**3. Make a change**
 
 With the repo on your machine, you can now make changes to it. Open the `script.md` file and adapt the poem to your liking. Or if you want to write your own poem or anything else, add anything to `script.md`.
 
 **4. Commit and sync this repo**
 
-Now you've made a change to `script.md`, you'll see the GUI tell you what changes you have made. Commit your change with a message e.g. "I made the poem better". Then click the sync button in the top-right corner and check your copy online: `https://github.com/[YOUR ACCOUNT NAME]/Teaching-github`. Also check our the history of `script.md` online or on your GUI.
+Now you've made a change to `script.md`, you'll see the GUI tell you what changes you have made. Commit your change with a message e.g. "I made the poem better". Then click the sync button in the top-right corner and check your copy online: `https://github.com/[YOUR ACCOUNT NAME]/Teaching-github`. Also check out the history of `script.md` online or on your GUI.
 
 >*Commit*  -- A change with a message (e.g. corrected infinite loop in myscript.sh) that can then be pushed to GitHub. All changes made must be committed in order to sync them.
 
