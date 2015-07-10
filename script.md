@@ -5,7 +5,7 @@ this is markdown, a simple mark-up language for displaying text.
 
 So without further ado here's a poem ....
 
-## The sheep
+## The goat
 
 *The sheep is alone.  
 A single white dot,  
