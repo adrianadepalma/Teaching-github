@@ -29,4 +29,4 @@ in white winter snow.*
 
 ## Conflicts please
 
-I expect this line to be a conflict.
+I expect this line to be a conflict. I am not conflicted.
